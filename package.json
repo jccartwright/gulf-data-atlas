@@ -1,0 +1,20 @@
+{
+  "name": "gulf-atlas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files \"*.html, *.js, css/*.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jccartwright/gulf-data-atlas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jccartwright/gulf-data-atlas/issues"
+  },
+  "homepage": "https://github.com/jccartwright/gulf-data-atlas#readme"
+}

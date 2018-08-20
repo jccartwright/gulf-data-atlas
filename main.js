@@ -26,7 +26,7 @@ require(["esri/Map",
     center: [-40,40],
     basemap: "satellite",
     viewPadding: {
-        top: 50, bottom: 0
+        top: 85, bottom: 0
     },
     uiPadding: {
         top: 15, bottom: 15
@@ -97,6 +97,7 @@ require(["esri/Map",
 
     query(".calcite-navbar li a[data-toggle='menu']").on("click", function(e) {
         console.log(e.target.text);
+        query("#messagePanel")[0].innerHTML = "Layer "+e.target.text+" selected";
     });
 
 
